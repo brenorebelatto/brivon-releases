@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "channel": "cloud",
-  "version": "1.2.10",
-  "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.10/Brivon_Setup_1.2.10.exe",
-  "sha256": "6128B118A327162809A75CF0807BFA4D82A8C77BC2D4624D6D2C798B041CDC38"
+  "version": "1.2.11",
+  "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.11/Brivon_Setup_1.2.11.exe",
+  "sha256": "8EC23A20A7026453904EDE1C04E7A2BC9B99864958AE48BEF54B2B3BF4E3EE72"
 }

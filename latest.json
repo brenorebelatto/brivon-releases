@@ -1,7 +1,23 @@
 {
   "schema": 1,
   "channel": "cloud",
-  "version": "1.2.22",
-  "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.22/Brivon_Setup_1.2.22.exe",
-  "sha256": "5E6E83D1F921840AFDE4E84FD58181B6017BB59ECF4C72A0BE7E0CA800DEF806"
+  "version": "1.2.23",
+  "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.23/Brivon_Setup_1.2.23.exe",
+  "sha256": "7AE3B2CF68C2E6253D1C92DDBC2E63B82D01943DAE62F67A334B100FE3CBA6A6",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.23/Brivon_Setup_1.2.23.exe",
+      "sha256": "7AE3B2CF68C2E6253D1C92DDBC2E63B82D01943DAE62F67A334B100FE3CBA6A6"
+    },
+    "macos": {
+      "arm64": {
+        "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.23/Brivon_Setup_1.2.23_macOS_arm64.dmg",
+        "sha256": "D4BACE1E48D7670D1033AB0861B47DD875A303D7056B91C0EA9DFA8E18BDE1D6"
+      },
+      "x86_64": {
+        "url": "https://github.com/brenorebelatto/brivon-releases/releases/download/v1.2.23/Brivon_Setup_1.2.23_macOS_x86_64.dmg",
+        "sha256": "1B25DEBC0FC2A658CFEEAF0C33589D0F8FF09FFB37FB7A96026E43E67550ED27"
+      }
+    }
+  }
 }

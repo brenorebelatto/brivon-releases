@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://bvlmhcvvzmyabrggeaef.supabase.co; form-action 'none'; base-uri 'none'">
+  <title>Ativar acesso | Brivon</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./activate.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <section class="brand-panel" aria-label="Brivon">
+      <div class="brand-mark" aria-hidden="true"><span>B</span></div>
+      <p class="eyebrow">VENTURE LOGISTICS</p>
+      <h1>Seu acesso começa aqui.</h1>
+      <p class="brand-copy">Defina uma senha exclusiva para entrar no Brivon e acessar a operação da sua empresa.</p>
+      <div class="route" aria-hidden="true">
+        <span>CONVITE</span><i></i><span>SENHA</span><i></i><span>BRIVON</span>
+      </div>
+      <p class="security-note">O link é individual e temporário. A senha não é enviada para a Venture Logistics.</p>
+    </section>
+
+    <section class="form-panel">
+      <div class="form-wrap">
+        <p class="step">ATIVAÇÃO DE CONTA</p>
+        <h2>Crie sua senha</h2>
+        <p id="account-copy" class="supporting">Validando seu convite...</p>
+
+        <div id="status" class="status" role="status" aria-live="polite"></div>
+
+        <form id="password-form" hidden>
+          <label for="password">Nova senha</label>
+          <div class="password-field">
+            <input id="password" name="password" type="password" minlength="12" maxlength="128" autocomplete="new-password" required>
+            <button class="reveal" type="button" data-target="password" aria-label="Mostrar nova senha">Mostrar</button>
+          </div>
+
+          <label for="confirmation">Confirmar senha</label>
+          <div class="password-field">
+            <input id="confirmation" name="confirmation" type="password" minlength="12" maxlength="128" autocomplete="new-password" required>
+            <button class="reveal" type="button" data-target="confirmation" aria-label="Mostrar confirmação da senha">Mostrar</button>
+          </div>
+
+          <ul id="requirements" class="requirements" aria-label="Requisitos da senha">
+            <li data-rule="length">12 ou mais caracteres</li>
+            <li data-rule="upper">Uma letra maiúscula</li>
+            <li data-rule="lower">Uma letra minúscula</li>
+            <li data-rule="number">Um número</li>
+            <li data-rule="symbol">Um símbolo</li>
+          </ul>
+
+          <button id="submit-button" class="primary" type="submit">Definir senha</button>
+        </form>
+
+        <div id="success" class="success" hidden>
+          <span class="success-mark" aria-hidden="true">OK</span>
+          <h2>Senha definida</h2>
+          <p>Abra o Brivon e entre com seu e-mail e a nova senha.</p>
+        </div>
+
+        <p class="help">Link expirado ou convite inválido? Solicite um novo convite ao administrador do Brivon.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
